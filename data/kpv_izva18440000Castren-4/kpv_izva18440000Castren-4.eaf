@@ -88,7 +88,7 @@
         <TIME_SLOT TIME_SLOT_ID="ts81" TIME_VALUE="400000"/>
         <TIME_SLOT TIME_SLOT_ID="ts82" TIME_VALUE="410000"/>
     </TIME_ORDER>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="refT" PARTICIPANT="bundle:Castren" TIER_ID="ref@bundle:Castren">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="refT" PARTICIPANT="Castren" TIER_ID="ref@Castren">
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
                 <ANNOTATION_VALUE>kpv_izva18440000Castren-4-1</ANNOTATION_VALUE>
@@ -300,10 +300,10 @@
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="bioT" TIER_ID="bio"/>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="commentT" TIER_ID="comment"/>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="noteT" PARENT_REF="part" TIER_ID="note(part)"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="phonol-cyrT" PARENT_REF="ref@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="phonol-CYR@bundle:Castren"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="translit-latT" PARENT_REF="ref@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="translit-LAT@bundle:Castren"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="noteT" PARENT_REF="ref@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="note(ref)@bundle:Castren"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="orthT" PARENT_REF="ref@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="orth@bundle:Castren">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="phonol-cyrT" PARENT_REF="ref@Castren" PARTICIPANT="Castren" TIER_ID="phonol-CYR@Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="translit-latT" PARENT_REF="ref@Castren" PARTICIPANT="Castren" TIER_ID="translit-LAT@Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="noteT" PARENT_REF="ref@Castren" PARTICIPANT="Castren" TIER_ID="note(ref)@Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="orthT" PARENT_REF="ref@Castren" PARTICIPANT="Castren" TIER_ID="orth@Castren">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a42" ANNOTATION_REF="a1">
                 <ANNOTATION_VALUE>Кыкпӧлэс локтанныд рӧдэн вужъен,</ANNOTATION_VALUE>
@@ -510,11 +510,11 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="phonet-ipaT" PARENT_REF="ref@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="phonet-IPA@bundle:Castren"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="phonol-latT" PARENT_REF="ref@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="phonol-LAT@bundle:Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="phonet-ipaT" PARENT_REF="ref@Castren" PARTICIPANT="Castren" TIER_ID="phonet-IPA@Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="phonol-latT" PARENT_REF="ref@Castren" PARTICIPANT="Castren" TIER_ID="phonol-LAT@Castren"/>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="noteT" PARENT_REF="geo" TIER_ID="note(geo)"/>
     <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="noteT" PARENT_REF="bio" TIER_ID="note(bio)"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="wordT" PARENT_REF="orth@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="word@bundle:Castren">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="wordT" PARENT_REF="orth@Castren" PARTICIPANT="Castren" TIER_ID="word@Castren">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a124" ANNOTATION_REF="a42">
                 <ANNOTATION_VALUE>Кыкпӧлэс</ANNOTATION_VALUE>
@@ -1641,21 +1641,21 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-engT" PARENT_REF="orth@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="ft-eng@bundle:Castren"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-deuT" PARENT_REF="orth@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="ft-deu@bundle:Castren"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-nobT" PARENT_REF="orth@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="ft-nob@bundle:Castren"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-rusT" PARENT_REF="orth@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="ft-rus@bundle:Castren"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-sweT" PARENT_REF="orth@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="ft-swe@bundle:Castren"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-lingT" PARENT_REF="orth@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="ft-ling@bundle:Castren"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-finT" PARENT_REF="orth@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="ft-fin@bundle:Castren"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="noteT" PARENT_REF="orth@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="note(orth)@bundle:Castren"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="lgT" PARENT_REF="orth@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="lg(orth)@bundle:Castren"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="lemmaT" PARENT_REF="word@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="lemma@bundle:Castren"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="morphT" PARENT_REF="word@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="morph@bundle:Castren"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="posT" PARENT_REF="word@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="pos@bundle:Castren"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="lgT" PARENT_REF="word@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="lg(word)@bundle:Castren"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="noteT" PARENT_REF="word@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="note(word)@bundle:Castren"/>
-    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="phonet-upaT" PARENT_REF="ref@bundle:Castren" PARTICIPANT="bundle:Castren" TIER_ID="phonet-UPA@bundle:Castren">
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-engT" PARENT_REF="orth@Castren" PARTICIPANT="Castren" TIER_ID="ft-eng@Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-deuT" PARENT_REF="orth@Castren" PARTICIPANT="Castren" TIER_ID="ft-deu@Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-nobT" PARENT_REF="orth@Castren" PARTICIPANT="Castren" TIER_ID="ft-nob@Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-rusT" PARENT_REF="orth@Castren" PARTICIPANT="Castren" TIER_ID="ft-rus@Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-sweT" PARENT_REF="orth@Castren" PARTICIPANT="Castren" TIER_ID="ft-swe@Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-lingT" PARENT_REF="orth@Castren" PARTICIPANT="Castren" TIER_ID="ft-ling@Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="ft-finT" PARENT_REF="orth@Castren" PARTICIPANT="Castren" TIER_ID="ft-fin@Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="noteT" PARENT_REF="orth@Castren" PARTICIPANT="Castren" TIER_ID="note(orth)@Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="lgT" PARENT_REF="orth@Castren" PARTICIPANT="Castren" TIER_ID="lg(orth)@Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="lemmaT" PARENT_REF="word@Castren" PARTICIPANT="Castren" TIER_ID="lemma@Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="morphT" PARENT_REF="word@Castren" PARTICIPANT="Castren" TIER_ID="morph@Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="posT" PARENT_REF="word@Castren" PARTICIPANT="Castren" TIER_ID="pos@Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="lgT" PARENT_REF="word@Castren" PARTICIPANT="Castren" TIER_ID="lg(word)@Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="noteT" PARENT_REF="word@Castren" PARTICIPANT="Castren" TIER_ID="note(word)@Castren"/>
+    <TIER DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="phonet-upaT" PARENT_REF="ref@Castren" PARTICIPANT="Castren" TIER_ID="phonet-UPA@Castren">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a83" ANNOTATION_REF="a1">
                 <ANNOTATION_VALUE>Kykpöläs loktannyd rödän vužjän,</ANNOTATION_VALUE>
